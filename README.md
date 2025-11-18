@@ -1,6 +1,6 @@
 # Simple Todo App
 
-Give a brief description of the project here. Feel free to give it a different name.
+This simple todo app helps you organize tasks and get them done.
 
 ## Functionality
 

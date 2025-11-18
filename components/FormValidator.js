@@ -70,13 +70,13 @@ class FormValidator {
   }
 
   resetValidation() {
-    this._buttonEl.classList.add(this._inactiveButtonClass);
-    this._buttonEl.disabled = true;
+    this._formEl.reset();
 
     this._inputList.forEach((inputElement) => {
-      inputElement.value = "";
       this._hideInputError(inputElement);
     });
+
+    this._toggleButtonState();
   }
 }
 
