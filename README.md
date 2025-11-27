@@ -4,11 +4,11 @@ This simple todo app helps you organize tasks and get them done.
 
 ## Functionality
 
-Give a more detailed explanation of the project and its functionality.
+This Todo app tracks the exact number of total todos you have and the ones you've completed so you can see your progress.
 
 ## Technology
 
-Give a description of the technologies and techniques used. Pictures, GIFs, or screenshots that detail the project features are recommended.
+This was built using HTML, CSS, and JavaScript. OOP was implemented to ensure code flexibility.
 
 ## Deployment
 
