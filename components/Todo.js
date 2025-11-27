@@ -10,11 +10,6 @@ class Todo {
     this._handleDelete = handleDelete;
   }
 
-  static create(data, selector = "#todo-template") {
-    const todo = new Todo(data, selector);
-    return todo.getView();
-  }
-
   _setEventListeners() {
     this._todoDeleteBtn.addEventListener("click", () => {
       this._handleDelete(this._completed);

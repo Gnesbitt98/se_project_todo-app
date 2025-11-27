@@ -1,5 +1,3 @@
-import Todo from "./Todo.js";
-
 class TodoCounter {
   // todos should be the array of initial todos
   // selector is the selector for the counter text element
